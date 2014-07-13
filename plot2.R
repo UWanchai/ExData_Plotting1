@@ -7,3 +7,4 @@ SQ<-sqldf("select * FROM DF WHERE Date in ('1/2/2007','2/2/2007')")
 
 Day <- as.POSIXct(strptime(paste(SQ$Date, SQ$Time), "%d/%m/%Y %H:%M:%S"))  
 plot(Day,SQ$Global_active_power,type="l", ylab="Global Active Power (kilowatts)", xlab="")
+png(filename="E:\\IT\\DataSciense\\Data_Exploratory\\RawData\\plot2.png", height=480, width=480,bg="white")
