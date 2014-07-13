@@ -10,4 +10,4 @@ plot(Day,SQ$Sub_metering_1,type="l", ylab="Energy sub metering", xlab="")
 lines(Day,SQ$Sub_metering_2,type="l", ylab="Energy sub metering", xlab="", col="red")
 lines(Day,SQ$Sub_metering_3,type="l", ylab="Energy sub metering", xlab="", col="blue")
 legend("topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),col=c("black","red","blue"), lty=1)
-
+png(filename="E:\\IT\\DataSciense\\Data_Exploratory\\RawData\\plot3.png", height=480, width=480,bg="white")
