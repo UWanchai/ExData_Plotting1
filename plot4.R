@@ -18,3 +18,4 @@ legend("topright",c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),col=c("b
 plot(Day,SQ$Voltage,type="l", ylab="Voltage", xlab="datetime")
 plot(Day,SQ$Global_reactive_power,type="l", ylab="Global Reactive Power (kilowatts)", xlab="datetime")
 
+png(filename="E:\\IT\\DataSciense\\Data_Exploratory\\RawData\\plot4.png", height=480, width=480,bg="white")
